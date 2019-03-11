@@ -1,15 +1,12 @@
-package labels;
+package panels;
 
 import geometryObjects.Circle;
 //import geometryObjects.Line;
-import geometryObjects.Point;
 import geometryObjects.Triangle;
 import windowsFrames.MainForm;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * Created by Sahatov Batyr on 07.03.2019.

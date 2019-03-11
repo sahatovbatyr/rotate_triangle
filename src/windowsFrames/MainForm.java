@@ -1,7 +1,7 @@
 package windowsFrames;
 
-import labels.ButtonPanel;
-import labels.TriangleFramePanel;
+import panels.ButtonPanel;
+import panels.TriangleFramePanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,8 +23,10 @@ public class MainForm extends JFrame  {
        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
        setLocation(400, 400);
        setLayout(new BorderLayout());
+       setExtendedState(MAXIMIZED_BOTH);
 
-        panelCircle = new TriangleFramePanel(new GridLayout(2, 0));
+
+       panelCircle = new TriangleFramePanel(new GridLayout(2, 0));
         buttonPanel = new ButtonPanel(new FlowLayout());
 
        buttonPanel.setParent(this);

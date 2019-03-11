@@ -1,4 +1,4 @@
-package labels;
+package panels;
 
 import windowsFrames.MainForm;
 
@@ -20,7 +20,7 @@ public class ButtonPanel extends JPanel  implements  ActionListener {
     }
 
     public ButtonPanel (LayoutManager layout){
-        JButton btnStopAndPlay = new JButton("Button 1");
+        JButton btnStopAndPlay = new JButton("Rotate");
         btnStopAndPlay.addActionListener(this);
         add(btnStopAndPlay);
         setLayout( layout);
@@ -38,6 +38,7 @@ public class ButtonPanel extends JPanel  implements  ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         isRotata = !isRotata;
+
 
     }
 
